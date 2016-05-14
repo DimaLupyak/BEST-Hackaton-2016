@@ -1,0 +1,3195 @@
+fileFormatVersion: 2
+guid: 5791bf6ebacaf4f2d806db55681f8e9a
+timeCreated: 1463264072
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    8900000: generatedCubemap
+    21300000: castle_final_edit03-3_0
+    21300002: castle_final_edit03-3_1
+    21300004: castle_final_edit03-3_2
+    21300006: castle_final_edit03-3_3
+    21300008: castle_final_edit03-3_4
+    21300010: castle_final_edit03-3_5
+    21300012: castle_final_edit03-3_6
+    21300014: castle_final_edit03-3_7
+    21300016: castle_final_edit03-3_8
+    21300018: castle_final_edit03-3_9
+    21300020: castle_final_edit03-3_10
+    21300022: castle_final_edit03-3_11
+    21300024: castle_final_edit03-3_12
+    21300026: castle_final_edit03-3_13
+    21300028: castle_final_edit03-3_14
+    21300030: castle_final_edit03-3_15
+    21300032: castle_final_edit03-3_16
+    21300034: castle_final_edit03-3_17
+    21300036: castle_final_edit03-3_18
+    21300038: castle_final_edit03-3_19
+    21300040: castle_final_edit03-3_20
+    21300042: castle_final_edit03-3_21
+    21300044: castle_final_edit03-3_22
+    21300046: castle_final_edit03-3_23
+    21300048: castle_final_edit03-3_24
+    21300050: castle_final_edit03-3_25
+    21300052: castle_final_edit03-3_26
+    21300054: castle_final_edit03-3_27
+    21300056: castle_final_edit03-3_28
+    21300058: castle_final_edit03-3_29
+    21300060: castle_final_edit03-3_30
+    21300062: castle_final_edit03-3_31
+    21300064: castle_final_edit03-3_32
+    21300066: castle_final_edit03-3_33
+    21300068: castle_final_edit03-3_34
+    21300070: castle_final_edit03-3_35
+    21300072: castle_final_edit03-3_36
+    21300074: castle_final_edit03-3_37
+    21300076: castle_final_edit03-3_38
+    21300078: castle_final_edit03-3_39
+    21300080: castle_final_edit03-3_40
+    21300082: castle_final_edit03-3_41
+    21300084: castle_final_edit03-3_42
+    21300086: castle_final_edit03-3_43
+    21300088: castle_final_edit03-3_44
+    21300090: castle_final_edit03-3_45
+    21300092: castle_final_edit03-3_46
+    21300094: castle_final_edit03-3_47
+    21300096: castle_final_edit03-3_48
+    21300098: castle_final_edit03-3_49
+    21300100: castle_final_edit03-3_50
+    21300102: castle_final_edit03-3_51
+    21300104: castle_final_edit03-3_52
+    21300106: castle_final_edit03-3_53
+    21300108: castle_final_edit03-3_54
+    21300110: castle_final_edit03-3_55
+    21300112: castle_final_edit03-3_56
+    21300114: castle_final_edit03-3_57
+    21300116: castle_final_edit03-3_58
+    21300118: castle_final_edit03-3_59
+    21300120: castle_final_edit03-3_60
+    21300122: castle_final_edit03-3_61
+    21300124: castle_final_edit03-3_62
+    21300126: castle_final_edit03-3_63
+    21300128: castle_final_edit03-3_64
+    21300130: castle_final_edit03-3_65
+    21300132: castle_final_edit03-3_66
+    21300134: castle_final_edit03-3_67
+    21300136: castle_final_edit03-3_68
+    21300138: castle_final_edit03-3_69
+    21300140: castle_final_edit03-3_70
+    21300142: castle_final_edit03-3_71
+    21300144: castle_final_edit03-3_72
+    21300146: castle_final_edit03-3_73
+    21300148: castle_final_edit03-3_74
+    21300150: castle_final_edit03-3_75
+    21300152: castle_final_edit03-3_76
+    21300154: castle_final_edit03-3_77
+    21300156: castle_final_edit03-3_78
+    21300158: castle_final_edit03-3_79
+    21300160: castle_final_edit03-3_80
+    21300162: castle_final_edit03-3_81
+    21300164: castle_final_edit03-3_82
+    21300166: castle_final_edit03-3_83
+    21300168: castle_final_edit03-3_84
+    21300170: castle_final_edit03-3_85
+    21300172: castle_final_edit03-3_86
+    21300174: castle_final_edit03-3_87
+    21300176: castle_final_edit03-3_88
+    21300178: castle_final_edit03-3_89
+    21300180: castle_final_edit03-3_90
+    21300182: castle_final_edit03-3_91
+    21300184: castle_final_edit03-3_92
+    21300186: castle_final_edit03-3_93
+    21300188: castle_final_edit03-3_94
+    21300190: castle_final_edit03-3_95
+    21300192: castle_final_edit03-3_96
+    21300194: castle_final_edit03-3_97
+    21300196: castle_final_edit03-3_98
+    21300198: castle_final_edit03-3_99
+    21300200: castle_final_edit03-3_100
+    21300202: castle_final_edit03-3_101
+    21300204: castle_final_edit03-3_102
+    21300206: castle_final_edit03-3_103
+    21300208: castle_final_edit03-3_104
+    21300210: castle_final_edit03-3_105
+    21300212: castle_final_edit03-3_106
+    21300214: castle_final_edit03-3_107
+    21300216: castle_final_edit03-3_108
+    21300218: castle_final_edit03-3_109
+    21300220: castle_final_edit03-3_110
+    21300222: castle_final_edit03-3_111
+    21300224: castle_final_edit03-3_112
+    21300226: castle_final_edit03-3_113
+    21300228: castle_final_edit03-3_114
+    21300230: castle_final_edit03-3_115
+    21300232: castle_final_edit03-3_116
+    21300234: castle_final_edit03-3_117
+    21300236: castle_final_edit03-3_118
+    21300238: castle_final_edit03-3_119
+    21300240: castle_final_edit03-3_120
+    21300242: castle_final_edit03-3_121
+    21300244: castle_final_edit03-3_122
+    21300246: castle_final_edit03-3_123
+    21300248: castle_final_edit03-3_124
+    21300250: castle_final_edit03-3_125
+    21300252: castle_final_edit03-3_126
+    21300254: castle_final_edit03-3_127
+    21300256: castle_final_edit03-3_128
+    21300258: castle_final_edit03-3_129
+    21300260: castle_final_edit03-3_130
+    21300262: castle_final_edit03-3_131
+    21300264: castle_final_edit03-3_132
+    21300266: castle_final_edit03-3_133
+    21300268: castle_final_edit03-3_134
+    21300270: castle_final_edit03-3_135
+    21300272: castle_final_edit03-3_136
+    21300274: castle_final_edit03-3_137
+    21300276: castle_final_edit03-3_138
+    21300278: castle_final_edit03-3_139
+    21300280: castle_final_edit03-3_140
+    21300282: castle_final_edit03-3_141
+    21300284: castle_final_edit03-3_142
+    21300286: castle_final_edit03-3_143
+    21300288: castle_final_edit03-3_144
+    21300290: castle_final_edit03-3_145
+    21300292: castle_final_edit03-3_146
+    21300294: castle_final_edit03-3_147
+    21300296: castle_final_edit03-3_148
+    21300298: castle_final_edit03-3_149
+    21300300: castle_final_edit03-3_150
+    21300302: castle_final_edit03-3_151
+    21300304: castle_final_edit03-3_152
+    21300306: castle_final_edit03-3_153
+    21300308: castle_final_edit03-3_154
+    21300310: castle_final_edit03-3_155
+    21300312: castle_final_edit03-3_156
+    21300314: castle_final_edit03-3_157
+    21300316: castle_final_edit03-3_158
+    21300318: castle_final_edit03-3_159
+    21300320: castle_final_edit03-3_160
+    21300322: castle_final_edit03-3_161
+    21300324: castle_final_edit03-3_162
+    21300326: castle_final_edit03-3_163
+    21300328: castle_final_edit03-3_164
+    21300330: castle_final_edit03-3_165
+    21300332: castle_final_edit03-3_166
+    21300334: castle_final_edit03-3_167
+    21300336: castle_final_edit03-3_168
+    21300338: castle_final_edit03-3_169
+    21300340: castle_final_edit03-3_170
+    21300342: castle_final_edit03-3_171
+    21300344: castle_final_edit03-3_172
+    21300346: castle_final_edit03-3_173
+    21300348: castle_final_edit03-3_174
+    21300350: castle_final_edit03-3_175
+    21300352: castle_final_edit03-3_176
+    21300354: castle_final_edit03-3_177
+    21300356: castle_final_edit03-3_178
+    21300358: castle_final_edit03-3_179
+    21300360: castle_final_edit03-3_180
+    21300362: castle_final_edit03-3_181
+    21300364: castle_final_edit03-3_182
+    21300366: castle_final_edit03-3_183
+    21300368: castle_final_edit03-3_184
+    21300370: castle_final_edit03-3_185
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: castle_final_edit03-3_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: -15, y: -9}
+    - name: castle_final_edit03-3_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: -16, y: -9}
+    - name: castle_final_edit03-3_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -9}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -10}
+        - {x: 15, y: -9}
+    - name: castle_final_edit03-3_3
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -9}
+        - {x: -16, y: -10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -10}
+        - {x: 15, y: -9}
+    - name: castle_final_edit03-3_4
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -9}
+        - {x: 5, y: -14}
+        - {x: 5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+    - name: castle_final_edit03-3_5
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -9}
+        - {x: -16, y: -16}
+        - {x: -5, y: -16}
+        - {x: -5, y: -13}
+        - {x: -12, y: -9}
+    - name: castle_final_edit03-3_6
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -12}
+        - {x: 12, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 15, y: -9}
+    - name: castle_final_edit03-3_7
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -12, y: -16}
+        - {x: -12, y: -12}
+        - {x: -15, y: -9}
+        - {x: -16, y: -9}
+    - name: castle_final_edit03-3_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_9
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_11
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_12
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_14
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_15
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_16
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_17
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_18
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_19
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+        - {x: -16, y: 7}
+    - name: castle_final_edit03-3_20
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_21
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_22
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 7}
+        - {x: -16, y: -4}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+    - name: castle_final_edit03-3_23
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_24
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
+        - {x: 10, y: 16}
+    - name: castle_final_edit03-3_25
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 7}
+        - {x: -16, y: 7}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -6}
+        - {x: 9, y: -1}
+    - name: castle_final_edit03-3_26
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 16}
+        - {x: -2, y: 12}
+        - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_27
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -4}
+        - {x: 15, y: -3}
+    - name: castle_final_edit03-3_28
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_29
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_31
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_32
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_33
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: -16, y: -9}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 9}
+        - {x: 16, y: 9}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_34
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_35
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_36
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_37
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_38
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_39
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_40
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_41
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_42
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_43
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_44
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_45
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_46
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_47
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_48
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_49
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_50
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_51
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_52
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_53
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_54
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_55
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_56
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_57
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_58
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_59
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_60
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_61
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_62
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 10}
+        - {x: -15, y: 9}
+        - {x: 16, y: 9}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_63
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 9}
+        - {x: 16, y: 9}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_64
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 9}
+        - {x: 15, y: 9}
+        - {x: 16, y: 10}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_65
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 10}
+        - {x: -15, y: 9}
+        - {x: 15, y: 9}
+        - {x: 16, y: 10}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_66
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_67
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_68
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 10}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 4}
+        - {x: 12, y: 10}
+    - name: castle_final_edit03-3_69
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+    - name: castle_final_edit03-3_70
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+    - name: castle_final_edit03-3_71
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -4}
+        - {x: 1, y: 10}
+    - name: castle_final_edit03-3_72
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+    - name: castle_final_edit03-3_73
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+    - name: castle_final_edit03-3_74
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -6}
+        - {x: -16, y: -8}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 9, y: -6}
+    - name: castle_final_edit03-3_75
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -2}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 8, y: -2}
+    - name: castle_final_edit03-3_76
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -2}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 8, y: -2}
+    - name: castle_final_edit03-3_77
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -2}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 8, y: -2}
+    - name: castle_final_edit03-3_78
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -9}
+        - {x: -3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 13, y: 0}
+        - {x: 0, y: -2}
+    - name: castle_final_edit03-3_79
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -1}
+        - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 3, y: -10}
+        - {x: -1, y: -3}
+    - name: castle_final_edit03-3_80
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -9}
+        - {x: -3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 13, y: 0}
+        - {x: 0, y: -2}
+    - name: castle_final_edit03-3_81
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -1}
+        - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 3, y: -10}
+        - {x: -1, y: -3}
+    - name: castle_final_edit03-3_82
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -9}
+        - {x: -3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 13, y: 0}
+        - {x: 0, y: -2}
+    - name: castle_final_edit03-3_83
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -1}
+        - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 3, y: -10}
+        - {x: -1, y: -3}
+    - name: castle_final_edit03-3_84
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -9}
+        - {x: -3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 13, y: 0}
+        - {x: 0, y: -2}
+    - name: castle_final_edit03-3_85
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -1}
+        - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 3, y: -10}
+        - {x: -1, y: -3}
+    - name: castle_final_edit03-3_86
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -9}
+        - {x: -3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 13, y: 0}
+        - {x: 0, y: -2}
+    - name: castle_final_edit03-3_87
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -1}
+        - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 3, y: -10}
+        - {x: -1, y: -3}
+    - name: castle_final_edit03-3_88
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -9}
+        - {x: -3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 13, y: 0}
+        - {x: 0, y: -2}
+    - name: castle_final_edit03-3_89
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -1}
+        - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 3, y: -10}
+        - {x: -1, y: -3}
+    - name: castle_final_edit03-3_90
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_91
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_92
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_93
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_94
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_95
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_96
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_97
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_98
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_99
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_100
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_101
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_102
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_103
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 5, y: 16}
+    - name: castle_final_edit03-3_104
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_105
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 5, y: 16}
+    - name: castle_final_edit03-3_106
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_107
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 5, y: 16}
+    - name: castle_final_edit03-3_108
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_109
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 5, y: 16}
+    - name: castle_final_edit03-3_110
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_111
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 5, y: 16}
+    - name: castle_final_edit03-3_112
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_113
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 5, y: 16}
+    - name: castle_final_edit03-3_114
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 10}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 4}
+        - {x: 12, y: 10}
+    - name: castle_final_edit03-3_115
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+    - name: castle_final_edit03-3_116
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+    - name: castle_final_edit03-3_117
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -4}
+        - {x: 1, y: 10}
+    - name: castle_final_edit03-3_118
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+    - name: castle_final_edit03-3_119
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+    - name: castle_final_edit03-3_120
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_121
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_122
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_123
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_124
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_125
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -9}
+        - {x: -3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 13, y: 0}
+        - {x: 0, y: -2}
+    - name: castle_final_edit03-3_126
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -1}
+        - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 3, y: -10}
+        - {x: -1, y: -3}
+    - name: castle_final_edit03-3_127
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -9}
+        - {x: -3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 13, y: 0}
+        - {x: 0, y: -2}
+    - name: castle_final_edit03-3_128
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -1}
+        - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 3, y: -10}
+        - {x: -1, y: -3}
+    - name: castle_final_edit03-3_129
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -9}
+        - {x: -3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 13, y: 0}
+        - {x: 0, y: -2}
+    - name: castle_final_edit03-3_130
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -1}
+        - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 3, y: -10}
+        - {x: -1, y: -3}
+    - name: castle_final_edit03-3_131
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -9}
+        - {x: -3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 13, y: 0}
+        - {x: 0, y: -2}
+    - name: castle_final_edit03-3_132
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -1}
+        - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 3, y: -10}
+        - {x: -1, y: -3}
+    - name: castle_final_edit03-3_133
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -9}
+        - {x: -3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 13, y: 0}
+        - {x: 0, y: -2}
+    - name: castle_final_edit03-3_134
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -1}
+        - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 3, y: -10}
+        - {x: -1, y: -3}
+    - name: castle_final_edit03-3_135
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_136
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_137
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_138
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_139
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_140
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_141
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_142
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_143
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_144
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_145
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_146
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_147
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_148
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 5, y: 16}
+    - name: castle_final_edit03-3_149
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_150
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 5, y: 16}
+    - name: castle_final_edit03-3_151
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_152
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 5, y: 16}
+    - name: castle_final_edit03-3_153
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_154
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 5, y: 16}
+    - name: castle_final_edit03-3_155
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_156
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 5, y: 16}
+    - name: castle_final_edit03-3_157
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -1, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 7}
+        - {x: -16, y: 7}
+    - name: castle_final_edit03-3_158
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -10}
+        - {x: 16, y: -10}
+        - {x: 16, y: 7}
+        - {x: -16, y: 7}
+    - name: castle_final_edit03-3_159
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -11}
+        - {x: 9, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+        - {x: -16, y: 7}
+    - name: castle_final_edit03-3_160
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+        - {x: -16, y: 7}
+    - name: castle_final_edit03-3_161
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -10}
+        - {x: 16, y: -10}
+        - {x: 16, y: 7}
+        - {x: -16, y: 7}
+    - name: castle_final_edit03-3_162
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -13}
+        - {x: 6, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -10}
+        - {x: 9, y: -10}
+    - name: castle_final_edit03-3_163
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 3}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 6}
+        - {x: 9, y: 6}
+    - name: castle_final_edit03-3_164
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 6}
+        - {x: -16, y: -13}
+        - {x: -10, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -5}
+        - {x: -5, y: 6}
+    - name: castle_final_edit03-3_165
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -6, y: -16}
+        - {x: -6, y: -13}
+        - {x: -9, y: -10}
+        - {x: -16, y: -10}
+    - name: castle_final_edit03-3_166
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -10, y: 16}
+        - {x: -16, y: 9}
+        - {x: -16, y: -12}
+        - {x: -13, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 8}
+        - {x: 14, y: 11}
+    - name: castle_final_edit03-3_167
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -10, y: 16}
+        - {x: -16, y: 9}
+        - {x: -16, y: -12}
+        - {x: -13, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 8}
+        - {x: 14, y: 11}
+    - name: castle_final_edit03-3_168
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -10, y: 16}
+        - {x: -16, y: 9}
+        - {x: -16, y: -12}
+        - {x: -13, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 8}
+        - {x: 14, y: 11}
+    - name: castle_final_edit03-3_169
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -14, y: 14}
+        - {x: -14, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 16}
+    - name: castle_final_edit03-3_170
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -14, y: 14}
+        - {x: -14, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 16}
+    - name: castle_final_edit03-3_171
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -14, y: 14}
+        - {x: -14, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 16}
+    - name: castle_final_edit03-3_172
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 16}
+        - {x: 0, y: 14}
+        - {x: 1, y: 14}
+        - {x: -2, y: 16}
+        - {x: -8, y: 16}
+        - {x: -11, y: 13}
+        - {x: -11, y: 11}
+        - {x: -11, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_173
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 15}
+        - {x: -13, y: 12}
+        - {x: -13, y: -15}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 13, y: -15}
+        - {x: 13, y: 12}
+        - {x: 10, y: 15}
+    - name: castle_final_edit03-3_174
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 5}
+        - {x: -9, y: 1}
+        - {x: -9, y: -16}
+        - {x: 8, y: -16}
+        - {x: 9, y: -13}
+        - {x: 9, y: -1}
+        - {x: 6, y: 5}
+    - name: castle_final_edit03-3_175
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 11}
+        - {x: -9, y: 9}
+        - {x: -9, y: -3}
+        - {x: -3, y: -11}
+        - {x: 8, y: -11}
+        - {x: 9, y: -6}
+        - {x: 9, y: 11}
+    - name: castle_final_edit03-3_176
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 8}
+        - {x: -4, y: 5}
+        - {x: -4, y: -5}
+        - {x: -1, y: -8}
+        - {x: 1, y: -8}
+        - {x: 4, y: -5}
+        - {x: 4, y: 5}
+        - {x: 1, y: 8}
+    - name: castle_final_edit03-3_177
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 12}
+        - {x: -6, y: 10}
+        - {x: -6, y: -6}
+        - {x: -5, y: -12}
+        - {x: 4, y: -12}
+        - {x: 6, y: -11}
+        - {x: 6, y: 9}
+        - {x: 1, y: 12}
+    - name: castle_final_edit03-3_178
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 6}
+        - {x: -16, y: -11}
+        - {x: -15, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: 7}
+        - {x: -15, y: 7}
+    - name: castle_final_edit03-3_179
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -13}
+        - {x: 14, y: -13}
+        - {x: 16, y: -11}
+        - {x: 16, y: 7}
+        - {x: -16, y: 7}
+    - name: castle_final_edit03-3_180
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 7}
+        - {x: -16, y: -12}
+        - {x: -13, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: 7}
+    - name: castle_final_edit03-3_181
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 6}
+        - {x: -16, y: -11}
+        - {x: -13, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: 7}
+        - {x: -15, y: 7}
+    - name: castle_final_edit03-3_182
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -10}
+        - {x: -7, y: -10}
+        - {x: 16, y: 1}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_183
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 5}
+        - {x: -12, y: 5}
+        - {x: -2, y: 8}
+        - {x: 3, y: 15}
+        - {x: 3, y: 16}
+    - name: castle_final_edit03-3_184
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 16}
+        - {x: -3, y: 11}
+        - {x: 9, y: 5}
+        - {x: 16, y: 5}
+        - {x: 16, y: 16}
+    - name: castle_final_edit03-3_185
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 3}
+        - {x: 7, y: -10}
+        - {x: 13, y: -10}
+        - {x: 16, y: -8}
+        - {x: 16, y: 11}
+        - {x: 9, y: 16}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
