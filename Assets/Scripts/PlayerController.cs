@@ -5,16 +5,18 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 10f;
     public float jumpForce = 600f;
+    public int power = 10;
     public bool isFacingRight = true;
     public Transform groundCheck;
     public float groundRadius = 0.2f;
+    public float hitDistance = 2f;
     public LayerMask whatIsGround;
 
     public float health = 100;
     private Animator anim;
     private Rigidbody2D rigi;
-    private bool isGrounded = true;    
-    
+    private bool isGrounded = true;
+
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -40,9 +42,12 @@ public class PlayerController : MonoBehaviour
             if (isGrounded)
             {
                 Jump();
-            }            
+            }
         }
-        
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Hit();
+        }
     }
     private void Update()
     {
@@ -66,5 +71,16 @@ public class PlayerController : MonoBehaviour
     public void GetDamage(int damage)
     {
         health -= damage;
+    }
+    public void Hit()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, isFacingRight ? Vector3.right : Vector3.left, hitDistance);
+        if (hit == false) return;
+        if (hit.collider.tag == "Enemy" && hit.distance <= hitDistance)
+        {
+            EnemyController enemy = hit.collider.gameObject.GetComponent<EnemyController>();
+            enemy.GetDamage(power);
+        }
+
     }
 }
