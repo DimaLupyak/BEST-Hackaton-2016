@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     public float health = 100;
     private Animator anim;
     private Rigidbody2D rigi;
-    private bool isGrounded = true;
+    public bool isGrounded = true;
 
     private void Start()
     {
