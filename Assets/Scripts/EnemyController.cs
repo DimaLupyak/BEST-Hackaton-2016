@@ -14,6 +14,7 @@ public class EnemyController : MonoBehaviour
     private Rigidbody2D rigi;
     private PlayerController player;
     private float distance;
+    public bool isFacingRight = true;
     // Use this for initialization
     void Start()
     {
@@ -26,6 +27,7 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         Move();
+        
     }
 
     void OnCollisionEnter2D(Collision2D coll)
@@ -44,9 +46,7 @@ public class EnemyController : MonoBehaviour
             Destroy(gameObject);
         if (coll.gameObject.tag == "Fliper" && type == EnemyType.Mario)
         {
-            Vector3 theScale = transform.localScale;
-            theScale.x *= -1;
-            transform.localScale = theScale;
+            Flip();
         }
     }
 
@@ -70,10 +70,21 @@ public class EnemyController : MonoBehaviour
         {
             if(Mathf.Abs(player.transform.position.x - transform.position.x)>1)
                 rigi.velocity = new Vector2(speed * (int)(Mathf.Sign(player.transform.position.x - transform.position.x)), rigi.velocity.y);
+            if (rigi.velocity.x > 0 && !isFacingRight)
+                Flip();
+            else if (rigi.velocity.x < 0 && isFacingRight)
+                Flip();
         }
        else if (type == EnemyType.Mario)
         {
             rigi.velocity = new Vector2(speed*Mathf.Sign(transform.localScale.x), rigi.velocity.y);
         }
+    }
+    private void Flip()
+    {
+        isFacingRight = !isFacingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 }
