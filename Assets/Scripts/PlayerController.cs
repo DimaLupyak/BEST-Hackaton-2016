@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float groundRadius = 0.2f;
     public LayerMask whatIsGround;
 
+    public float health = 100;
     private Animator anim;
     private Rigidbody2D rigi;
     private bool isGrounded = true;    
@@ -59,5 +60,10 @@ public class PlayerController : MonoBehaviour
     {
         rigi.velocity = new Vector2(rigi.velocity.x, 0);
         rigi.AddForce(new Vector2(0, jumpForce));
+    }
+
+    public void GetDamage(int damage)
+    {
+        health -= damage;
     }
 }
