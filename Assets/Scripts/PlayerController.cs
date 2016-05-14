@@ -37,6 +37,10 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
         anim.SetBool("Ground", isGrounded);
         anim.SetFloat("vSpeed", rigi.velocity.y);
+        
+    }
+    private void Update()
+    {
         if (Input.GetButtonDown("Jump"))
         {
             if (isGrounded)
@@ -49,10 +53,6 @@ public class PlayerController : MonoBehaviour
             anim.SetTrigger("Hit");
             Hit();
         }
-    }
-    private void Update()
-    {
-
     }
 
     private void Flip()
