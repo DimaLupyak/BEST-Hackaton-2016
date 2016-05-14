@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetButtonDown("Fire1"))
         {
+            anim.SetTrigger("Hit");
             Hit();
         }
     }
