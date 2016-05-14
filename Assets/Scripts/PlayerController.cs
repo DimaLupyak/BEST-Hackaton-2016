@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
         //Runing
         float move = Input.GetAxis("Horizontal");
         if (Mathf.Abs(move) > 0.3) move = 1 * Mathf.Sign(move);
-//        anim.SetFloat("hSpeed", Mathf.Abs(move));
+        anim.SetFloat("hSpeed", Mathf.Abs(move));
         rigi.velocity = new Vector2(move * speed, rigi.velocity.y);
         if (move > 0 && !isFacingRight)
             Flip();
@@ -35,8 +35,8 @@ public class PlayerController : MonoBehaviour
             Flip();
         //Jumping
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
-//        anim.SetBool("Ground", isGrounded);
-//        anim.SetFloat("vSpeed", rigi.velocity.y);
+        anim.SetBool("Ground", isGrounded);
+        anim.SetFloat("vSpeed", rigi.velocity.y);
         if (Input.GetButtonDown("Jump"))
         {
             if (isGrounded)
