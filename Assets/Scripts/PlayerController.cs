@@ -8,7 +8,8 @@ public class PlayerController : MonoBehaviour
     public bool isFacingRight = true;
     public float groundRadius = 0.2f;
 	public BoxCollider2D groundChecker;
-	public SpriteRenderer mySprite;
+	public int power = 10;
+	public float hitDistance = 2f;
 
     public float health = 100;
     private Animator anim;
@@ -28,7 +29,7 @@ public class PlayerController : MonoBehaviour
 
 	void HeadOccupation(EnemyController enemy)
 	{
-		this.transform.position = new Vector3(enemy.transform.position.x, -2.8f, this.transform.position.z);
+		this.transform.position = new Vector3(enemy.transform.position.x, enemy.transform.position.y + 1, this.transform.position.z);
 		Destroy(enemy.gameObject);
 		rigi.velocity = Vector2.zero;
 		mainSprite.enabled = false;
@@ -69,6 +70,8 @@ public class PlayerController : MonoBehaviour
 		//JUMP
 		if (Input.GetButtonDown("Jump") && groundChecker.IsTouchingLayers(LayerMask.GetMask("Ground")))
 			Jump();	
+		anim.SetBool("Ground", groundChecker.IsTouchingLayers(LayerMask.GetMask("Ground")));
+		anim.SetFloat("vSpeed", rigi.velocity.y);
 		if (!occupating)
 		{
 			if (Input.GetKeyDown(KeyCode.G) && currentCollider != null && currentCollider.tag == "BigRatHead")
@@ -83,6 +86,12 @@ public class PlayerController : MonoBehaviour
 			if (Input.GetKeyDown(KeyCode.G))
 				JumpAndUnoccupate();
 		}
+		if (Input.GetButtonDown("Fire1"))
+		{
+			anim.SetTrigger("Hit");
+			Hit();
+		}
+
 	}
 
     private void FixedUpdate()
@@ -90,10 +99,10 @@ public class PlayerController : MonoBehaviour
 		float move = Input.GetAxis("Horizontal");
 		if (move != 0)
 			currentTransform.localScale = Mathf.Abs(currentTransform.localScale.x) * new Vector3(move > 0 ? 1 : -1, 1, 1);
+		move = Mathf.Abs(move) > 0.3f ? Mathf.Sign(move) : move;
+		anim.SetFloat("hSpeed", Mathf.Abs(move));
 		//RUN
 		rigi.velocity = new Vector2(move * speed, rigi.velocity.y);
-
-
     }
 
     public void Jump()
@@ -106,4 +115,17 @@ public class PlayerController : MonoBehaviour
     {
         health -= damage;
     }
+
+	public void Hit()
+	{
+		RaycastHit2D hit = Physics2D.Raycast(transform.position, isFacingRight ? Vector3.right : Vector3.left, hitDistance);
+		if (hit == false) return;
+		if (hit.collider.tag == "Enemy" && hit.distance <= hitDistance)
+		{
+			EnemyController enemy = hit.collider.gameObject.GetComponent<EnemyController>();
+			enemy.GetDamage(power);
+		}
+
+	}
+
 }
