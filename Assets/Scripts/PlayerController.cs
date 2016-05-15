@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Holoville.HOTween;
 
 public class PlayerController : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     private Rigidbody2D rigi;
     private bool isGrounded = true;    
-	public SpriteRenderer mainSprite, occupatedSpriteRat, occupatedSpriteBrain;
+	public SpriteRenderer mainSprite, glassesSprite, occupatedSpriteRat, occupatedSpriteBrain;
 	private Transform currentTransform;
 	private bool occupating;
 	private Collider2D currentCollider;
@@ -29,18 +30,20 @@ public class PlayerController : MonoBehaviour
 
 	void HeadOccupation(EnemyController enemy)
 	{
-		this.transform.position = new Vector3(enemy.transform.position.x, enemy.transform.position.y + 1, this.transform.position.z);
+		this.transform.position = new Vector3(enemy.transform.position.x, enemy.transform.position.y, this.transform.position.z);
 		Destroy(enemy.gameObject);
 		rigi.velocity = Vector2.zero;
 		mainSprite.enabled = false;
+		glassesSprite.enabled = false;
 		occupatedSpriteRat.enabled = true;
 		occupatedSpriteBrain.enabled = true;
 	}
 
 	void JumpAndUnoccupate()
 	{
-		this.transform.Translate(0, 1, 0);
+		//this.transform.Translate(0, 1, 0);
 		mainSprite.enabled = true;
+		glassesSprite.enabled = true;
 		occupatedSpriteRat.enabled = false;
 		occupatedSpriteBrain.enabled = false;
 		rigi.AddForce(new Vector2(0, jumpForce));
@@ -111,10 +114,25 @@ public class PlayerController : MonoBehaviour
         rigi.AddForce(new Vector2(0, jumpForce));
     }
 
-    public void GetDamage(int damage)
+	public void GetDamage(int damage, EnemyController enemy)
     {
+		Debug.LogWarning("DAM");
         health -= damage;
+		StartCoroutine(RedLight());
+		var sign = enemy.transform.position.x > this.transform.position.x ? -1 : 1;
+		rigi.AddForce(new Vector2(200 * sign, 150));
     }
+
+	IEnumerator RedLight()
+	{
+		for (int i = 0; i < 3; i++)
+		{
+			HOTween.To(mainSprite, 0.1f, "color", new Color(1, 0.5f, 0.5f));
+			yield return new WaitForSeconds(0.1f);
+			HOTween.To(mainSprite, 0.1f, "color", new Color(1, 1f, 1f));
+			yield return new WaitForSeconds(0.1f);			
+		}
+	}
 
 	public void Hit()
 	{

@@ -1,46 +1,57 @@
 ﻿using UnityEngine;
 using System.Collections;
+
 public enum EnemyType {SmallRat, BigRat}
 
 public class EnemyController : MonoBehaviour
 {
     public float speed = 10f;
-    public float attackRange = 2;
+    public float attackRange = 0.3f;
+	float attackFrequency = 2;
     public float health = 100;
 	public float jumpForce = 2;
-
-    public int power = 10;
-    public EnemyType type;
-	public Transform headPlace;
-
+	public float moveDistance = 3;
+	public int power = 10;
 	public SpriteRenderer occupatedSprite;
-    private Animator anim;
+	public EnemyType type;
+	public Transform headPlace;
 	public BoxCollider2D groundChecker;
-	[HideInInspector]
 	public Rigidbody2D rigi;
+
+	private Animator anim;
     private PlayerController player;
-    private float distance;
-	public bool isOccupated = false;
+	private bool blockMove;
+
     void Start()
 	{
         anim = GetComponent<Animator>();
         rigi = GetComponent<Rigidbody2D>();
         player = GameObject.FindObjectOfType<PlayerController>();
+		StartCoroutine(CheckAttack());
     }
 		
+	IEnumerator CheckAttack()
+	{
+		while (true)
+		{
+			yield return new WaitForSeconds(attackFrequency);
+			if (Mathf.Abs(transform.position.x - player.transform.position.x) < attackRange && Mathf.Abs(transform.position.y - player.transform.position.y) < 0.3f)
+			{
+				Hit();
+				blockMove = true;
+			}
+			else blockMove = false;
+		}
+	}
+
     void Update()
     {
-        Move();
+		if (!blockMove)
+        	Move();
+		var sign = player.transform.position.x < this.transform.position.x ? 1 : -1;
+		this.transform.localScale = new Vector3(Mathf.Abs(this.transform.localScale.x) * sign, this.transform.localScale.y, this.transform.localScale.z);
     }
 
-    void OnCollisionEnter2D(Collision2D coll)
-    {
-		if (coll.gameObject.tag == "Player" && !isOccupated)
-        {
-            StartCoroutine(Hit());
-            player.Jump();
-        }   
-    }
 
     void OnTriggerEnter2D(Collider2D coll)
     {
@@ -57,20 +68,16 @@ public class EnemyController : MonoBehaviour
         health -= damage;
     }
 
-    IEnumerator Hit()
-    {
-//        anim.SetBool("Kick", true);
-        player.GetDamage(power);
-        
-        yield return new WaitForSeconds(0.2f);
-  //      anim.SetBool("Kick", false);
-    }
+	void Hit()
+	{
+		player.GetDamage(power, this);
+	}
 
     void Move()
     {
 		if(type == EnemyType.BigRat)
         {
-            if (Mathf.Abs(player.transform.position.x - transform.position.x)>1)
+			if (Mathf.Abs(player.transform.position.x - transform.position.x) >= attackRange && Mathf.Abs(player.transform.position.x - transform.position.x) < moveDistance)
                 rigi.velocity = new Vector2(speed * (int)(Mathf.Sign(player.transform.position.x - transform.position.x)), rigi.velocity.y);
         }
 		else if (type == EnemyType.SmallRat)
