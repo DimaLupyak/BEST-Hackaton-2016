@@ -89,7 +89,7 @@ public class PlayerController : MonoBehaviour
 		anim.SetFloat("vSpeed", rigi.velocity.y);
 		if (!occupating)
 		{
-			if (Input.GetKeyDown(KeyCode.G) && currentCollider != null && currentCollider.tag == "BigRatHead")
+			if (Input.GetButtonDown("Fire2") && currentCollider != null && currentCollider.tag == "BigRatHead")
 			{
 				//currentCollider.transform.parent.GetComponent<EnemyController>().isOccupated = true;
 				occupating = true;
@@ -98,7 +98,7 @@ public class PlayerController : MonoBehaviour
 		}
 		else
 		{
-			if (Input.GetKeyDown(KeyCode.G))
+			if (Input.GetButtonDown("Fire2"))
 				JumpAndUnoccupate();
 		}
 		if (Input.GetButtonDown("Fire1") && !blockHit)

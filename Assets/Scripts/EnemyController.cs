@@ -110,12 +110,14 @@ public class EnemyController : MonoBehaviour
 
 	void Hit()
 	{
+        anim.SetTrigger("Hit");
 		player.GetDamage(power, this);
 	}
 
     void Move()
     {
-		if(type == EnemyType.BigRat)
+        anim.SetFloat("hSpeed", Mathf.Abs(rigi.velocity.x));
+        if (type == EnemyType.BigRat)
         {
 			if (Mathf.Abs(player.transform.position.x - transform.position.x) >= attackRange && Mathf.Abs(player.transform.position.x - transform.position.x) < moveDistance)
                 rigi.velocity = new Vector2(speed * (int)(Mathf.Sign(player.transform.position.x - transform.position.x)), rigi.velocity.y);
