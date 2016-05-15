@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using Holoville.HOTween;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,8 +12,8 @@ public class PlayerController : MonoBehaviour
 	public BoxCollider2D groundChecker;
 	public int power = 10;
 	public float hitDistance = 2f;
-
-	private bool blockHit;
+    public GameObject slider;
+    private bool blockHit;
     public float health = 100;
     private Animator anim;
     private Rigidbody2D rigi;
@@ -82,6 +83,8 @@ public class PlayerController : MonoBehaviour
 
 	private void Update()
 	{
+        slider.GetComponent<Slider>().value = health;
+        anim.SetFloat("Gravity", rigi.gravityScale);
 		//JUMP
 		if (Input.GetButtonDown("Jump") && groundChecker.IsTouchingLayers(LayerMask.GetMask("Ground")))
 			Jump();	
