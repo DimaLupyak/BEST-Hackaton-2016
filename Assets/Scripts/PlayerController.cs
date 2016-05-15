@@ -4,14 +4,15 @@ using Holoville.HOTween;
 
 public class PlayerController : MonoBehaviour
 {
+	public float attackRadius = 0.5f;
     public float speed = 10f;
     public float jumpForce = 600f;
-    public bool isFacingRight = true;
     public float groundRadius = 0.2f;
 	public BoxCollider2D groundChecker;
 	public int power = 10;
 	public float hitDistance = 2f;
 
+	private bool blockHit;
     public float health = 100;
     private Animator anim;
     private Rigidbody2D rigi;
@@ -20,12 +21,14 @@ public class PlayerController : MonoBehaviour
 	private Transform currentTransform;
 	private bool occupating;
 	private Collider2D currentCollider;
+	private MainController controller;
 
     private void Start()
     {
         anim = GetComponent<Animator>();
         rigi = GetComponent<Rigidbody2D>();
 		currentTransform = transform;
+		controller = GameObject.FindObjectOfType<MainController>();
     }
 
 	void HeadOccupation(EnemyController enemy)
@@ -58,8 +61,17 @@ public class PlayerController : MonoBehaviour
 		}
 		else if (coll.gameObject.tag == "Enemy")
 		{
-			if (coll.gameObject.GetComponent<EnemyController>().type == EnemyType.SmallRat)
+			if (coll.gameObject.GetComponent<EnemyController>().type == EnemyType.SmallRat && coll.transform.position.y < this.transform.position.y)
+			{
+				rigi.AddForce(new Vector2(0, 150));
 				Destroy(coll.gameObject);
+			}
+			else if (coll.gameObject.GetComponent<EnemyController>().type == EnemyType.BigRat && coll.transform.position.y < this.transform.position.y)
+
+			{
+				coll.GetComponent<EnemyController>().GetDamage(power, false);
+				rigi.AddForce(new Vector2(0, 200));
+			}
 		}
 	}
 
@@ -89,7 +101,7 @@ public class PlayerController : MonoBehaviour
 			if (Input.GetKeyDown(KeyCode.G))
 				JumpAndUnoccupate();
 		}
-		if (Input.GetButtonDown("Fire1"))
+		if (Input.GetButtonDown("Fire1") && !blockHit)
 		{
 			anim.SetTrigger("Hit");
 			Hit();
@@ -116,11 +128,10 @@ public class PlayerController : MonoBehaviour
 
 	public void GetDamage(int damage, EnemyController enemy)
     {
-		Debug.LogWarning("DAM");
         health -= damage;
 		StartCoroutine(RedLight());
 		var sign = enemy.transform.position.x > this.transform.position.x ? -1 : 1;
-		rigi.AddForce(new Vector2(200 * sign, 150));
+		rigi.AddForce(new Vector2(150 * sign, 50));
     }
 
 	IEnumerator RedLight()
@@ -136,14 +147,22 @@ public class PlayerController : MonoBehaviour
 
 	public void Hit()
 	{
-		RaycastHit2D hit = Physics2D.Raycast(transform.position, isFacingRight ? Vector3.right : Vector3.left, hitDistance);
-		if (hit == false) return;
-		if (hit.collider.tag == "Enemy" && hit.distance <= hitDistance)
+		for (int i = 0; i < controller.enemies.Count; i++)
 		{
-			EnemyController enemy = hit.collider.gameObject.GetComponent<EnemyController>();
-			enemy.GetDamage(power);
+			if (Mathf.Abs(controller.enemies[i].transform.position.x - this.transform.position.x) < attackRadius
+				&& Mathf.Abs(controller.enemies[i].transform.position.y - this.transform.position.y) < 0.3f)
+			{
+				controller.enemies[i].GetDamage(power, true);
+				StartCoroutine(BlockHit(1));
+			}
 		}
+	}
 
+	IEnumerator BlockHit(float delay)
+	{
+		blockHit = true;
+		yield return new WaitForSeconds(delay);	
+		blockHit= false;
 	}
 
 }

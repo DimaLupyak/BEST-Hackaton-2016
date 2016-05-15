@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Holoville.HOTween;
 
 public enum EnemyType {SmallRat, BigRat}
 
@@ -7,20 +8,20 @@ public class EnemyController : MonoBehaviour
 {
     public float speed = 10f;
     public float attackRange = 0.3f;
-	float attackFrequency = 2;
+	public float attackFrequency = 1;
     public float health = 100;
 	public float jumpForce = 2;
 	public float moveDistance = 3;
 	public int power = 10;
-	public SpriteRenderer occupatedSprite;
+	public SpriteRenderer occupatedSprite, mainSprite;
 	public EnemyType type;
 	public Transform headPlace;
 	public BoxCollider2D groundChecker;
 	public Rigidbody2D rigi;
-
 	private Animator anim;
     private PlayerController player;
 	private bool blockMove;
+	private bool isDied;
 
     void Start()
 	{
@@ -32,7 +33,7 @@ public class EnemyController : MonoBehaviour
 		
 	IEnumerator CheckAttack()
 	{
-		while (true)
+		while (!isDied)
 		{
 			yield return new WaitForSeconds(attackFrequency);
 			if (Mathf.Abs(transform.position.x - player.transform.position.x) < attackRange && Mathf.Abs(transform.position.y - player.transform.position.y) < 0.3f)
@@ -46,6 +47,8 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
+		if (isDied)
+			return;
 		if (!blockMove)
         	Move();
 		var sign = player.transform.position.x < this.transform.position.x ? 1 : -1;
@@ -63,10 +66,47 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    public void GetDamage(int damage)
-    {
-        health -= damage;
-    }
+	public void GetDamage(int damage, bool byWhip = false)
+	{
+		health -= damage;
+		if (health < 0)
+		{
+			Die();
+			return;
+		}
+		StartCoroutine(RedLight());
+		var sign = player.transform.position.x > this.transform.position.x ? -1 : 1;
+		if (byWhip)
+			rigi.AddForce(new Vector2(100 * sign, 80));
+		StartCoroutine(BlockMove(0.5f));
+	}
+
+
+	void Die()
+	{
+		//HOTween.To(mainSprite, 0.05f, "color", new Color(1, 1, 1, 0));
+		Destroy(this.gameObject);
+		//GetComponent<BoxCollider2D>().enabled = false;
+
+	}
+
+	IEnumerator BlockMove(float delay)
+	{
+		blockMove = true;
+		yield return new WaitForSeconds(delay);	
+		blockMove = false;
+	}
+
+	IEnumerator RedLight()
+	{
+		for (int i = 0; i < 3; i++)
+		{
+			HOTween.To(mainSprite, 0.05f, "color", new Color(1, 0.5f, 0.5f));
+			yield return new WaitForSeconds(0.1f);
+			HOTween.To(mainSprite, 0.05f, "color", new Color(1, 1f, 1f));
+			yield return new WaitForSeconds(0.1f);			
+		}
+	}
 
 	void Hit()
 	{
