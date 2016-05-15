@@ -2,7 +2,7 @@
 using System.Collections;
 using Holoville.HOTween;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
 	public float attackRadius = 0.5f;
@@ -60,7 +60,11 @@ public class PlayerController : MonoBehaviour
 		{
 			currentCollider = coll;
 		}
-		else if (coll.gameObject.tag == "Enemy")
+        if (coll.gameObject.tag == "Shipi")
+        {
+            SceneManager.LoadScene("DemoLvl");
+        }
+        else if (coll.gameObject.tag == "Enemy")
 		{
 			if (coll.gameObject.GetComponent<EnemyController>().type == EnemyType.SmallRat && coll.transform.position.y < this.transform.position.y)
 			{
