@@ -49,6 +49,6 @@ public class PyramidAnimation : MonoBehaviour
 		HOTween.Kill(cam.parent);
 		HOTween.Kill(cam);
 		HOTween.To(cam.parent, navigationSpeed, "rotation", new Vector3(0, 180 + ((level - 1) % 6) * (-360f / 6f) , 0));
-		HOTween.To(cam, navigationSpeed, "localPosition", new Vector3(0, 15 + (level - 1) / 6 * (105 / 3), -120 + (level - 1) / 6 * (15)));
+		HOTween.To(cam, navigationSpeed, "localPosition", new Vector3(0, 15 + (level - 1) / 6 * (105 / 3), -100 + (level - 1) / 6 * (15)));
 	}
 }
