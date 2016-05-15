@@ -85,6 +85,10 @@ public class PlayerController : MonoBehaviour
 		//JUMP
 		if (Input.GetButtonDown("Jump") && groundChecker.IsTouchingLayers(LayerMask.GetMask("Ground")))
 			Jump();	
+		if (Input.GetButton("Jump") && rigi.velocity.y < 0 && !groundChecker.IsTouchingLayers(LayerMask.GetMask("Ground")))
+			rigi.gravityScale = 0.1f;
+		else 
+			rigi.gravityScale = 1f;
 		anim.SetBool("Ground", groundChecker.IsTouchingLayers(LayerMask.GetMask("Ground")));
 		anim.SetFloat("vSpeed", rigi.velocity.y);
 		if (!occupating)

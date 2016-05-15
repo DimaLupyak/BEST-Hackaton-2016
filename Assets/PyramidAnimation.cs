@@ -4,8 +4,9 @@ using Holoville.HOTween;
 
 public class PyramidAnimation : MonoBehaviour 
 {
-	public Transform cam;
+	public Transform cam, oko;
 	public int currentLevel = 1;
+	public float firstSpeed, navigationSpeed;
 
 	void Update()
 	{
@@ -20,7 +21,7 @@ public class PyramidAnimation : MonoBehaviour
 			MoveMapToLevel(currentLevel);
 		}
 	}
-
+		
 	void Start () 
 	{
 		FirstAnimation();
@@ -30,15 +31,15 @@ public class PyramidAnimation : MonoBehaviour
 	{
 		TweenParms parms = new TweenParms();
 		parms.Prop("rotation", new Vector3(0, 180, 0));
-		HOTween.To(cam.parent, 8, parms);
-		HOTween.To(cam, 8, "localPosition", new Vector3(0, 30, -120));
+		HOTween.To(cam.parent, 4, parms);
+		HOTween.To(cam, 4, "localPosition", new Vector3(0, 30, -120));
 	}
 
 	void MoveMapToLevel(int level)
 	{
 		HOTween.Kill(cam.parent);
 		HOTween.Kill(cam);
-		HOTween.To(cam.parent, 2, "rotation", new Vector3(0, 180 + ((level - 1) % 6) * (-360f / 6f) , 0));
-		HOTween.To(cam, 2, "localPosition", new Vector3(0, 15 + (level - 1) / 6 * (100 / 3), -120));
+		HOTween.To(cam.parent, 1, "rotation", new Vector3(0, 180 + ((level - 1) % 6) * (-360f / 6f) , 0));
+		HOTween.To(cam, 1, "localPosition", new Vector3(0, 15 + (level - 1) / 6 * (100 / 3), -120));
 	}
 }
