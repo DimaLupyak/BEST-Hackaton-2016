@@ -75,12 +75,11 @@ public class EnemyController : MonoBehaviour
 			return;
 		}
 		StartCoroutine(RedLight());
-		var sign = player.transform.position.x > this.transform.position.x ? -1 : 1;
-		if (byWhip)
-			rigi.AddForce(new Vector2(100 * sign, 80));
-		StartCoroutine(BlockMove(0.5f));
+		
+		StartCoroutine(BlockMove(0.2f, byWhip));
 	}
 
+    
 
 	void Die()
 	{
@@ -90,9 +89,13 @@ public class EnemyController : MonoBehaviour
 
 	}
 
-	IEnumerator BlockMove(float delay)
+	IEnumerator BlockMove(float delay, bool byWhip)
 	{
-		blockMove = true;
+        yield return new WaitForSeconds(0.3f);
+        var sign = player.transform.position.x > this.transform.position.x ? -1 : 1;
+        if (byWhip)
+            rigi.AddForce(new Vector2(100 * sign, 80));
+        blockMove = true;
 		yield return new WaitForSeconds(delay);	
 		blockMove = false;
 	}
