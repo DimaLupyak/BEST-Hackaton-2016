@@ -153,6 +153,8 @@ public class PlayerController : MonoBehaviour
 	{
 		for (int i = 0; i < controller.enemies.Count; i++)
 		{
+			if (controller.enemies[i] == null)
+				continue;
 			if (Mathf.Abs(controller.enemies[i].transform.position.x - this.transform.position.x) < attackRadius
 				&& Mathf.Abs(controller.enemies[i].transform.position.y - this.transform.position.y) < 0.3f)
 			{
