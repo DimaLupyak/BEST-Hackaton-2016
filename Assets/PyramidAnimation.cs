@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using Holoville.HOTween;
+using UnityEngine.SceneManagement;
 
 public class PyramidAnimation : MonoBehaviour 
 {
@@ -10,6 +11,14 @@ public class PyramidAnimation : MonoBehaviour
 
 	void Update()
 	{
+		if (Input.GetKeyDown(KeyCode.R))
+		{
+			SceneManager.LoadScene(0);
+		}
+		if (Input.GetKeyDown(KeyCode.KeypadEnter))
+		{
+			SceneManager.LoadScene(1);
+		}
 		if (Input.GetKeyDown(KeyCode.RightArrow) && currentLevel < 19)
 		{
 			currentLevel++;
@@ -31,15 +40,15 @@ public class PyramidAnimation : MonoBehaviour
 	{
 		TweenParms parms = new TweenParms();
 		parms.Prop("rotation", new Vector3(0, 180, 0));
-		HOTween.To(cam.parent, 4, parms);
-		HOTween.To(cam, 4, "localPosition", new Vector3(0, 30, -120));
+		HOTween.To(cam.parent, firstSpeed, parms);
+		HOTween.To(cam, firstSpeed, "localPosition", new Vector3(0, 15, -120));
 	}
 
 	void MoveMapToLevel(int level)
 	{
 		HOTween.Kill(cam.parent);
 		HOTween.Kill(cam);
-		HOTween.To(cam.parent, 1, "rotation", new Vector3(0, 180 + ((level - 1) % 6) * (-360f / 6f) , 0));
-		HOTween.To(cam, 1, "localPosition", new Vector3(0, 15 + (level - 1) / 6 * (100 / 3), -120));
+		HOTween.To(cam.parent, navigationSpeed, "rotation", new Vector3(0, 180 + ((level - 1) % 6) * (-360f / 6f) , 0));
+		HOTween.To(cam, navigationSpeed, "localPosition", new Vector3(0, 15 + (level - 1) / 6 * (105 / 3), -120 + (level - 1) / 6 * (15)));
 	}
 }
