@@ -82,6 +82,7 @@ public class PlayerController : MonoBehaviour
 
 	private void Update()
 	{
+        anim.SetFloat("Gravity", rigi.gravityScale);
 		//JUMP
 		if (Input.GetButtonDown("Jump") && groundChecker.IsTouchingLayers(LayerMask.GetMask("Ground")))
 			Jump();	
