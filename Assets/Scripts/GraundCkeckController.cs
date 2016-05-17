@@ -7,7 +7,7 @@ public class GraundCkeckController : MonoBehaviour
     {
         if (coll.gameObject.tag == "Enemy")
         {
-            //gameObject.GetComponentInParent<PlayerController>().Jump();
+            gameObject.GetComponentInParent<PlayerController>().Jump(coll.GetComponent<EnemyController>().jumpForce);
         }
             
     }

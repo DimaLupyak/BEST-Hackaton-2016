@@ -7,12 +7,14 @@ public class PlayerController : MonoBehaviour
 {
 	public float attackRadius = 0.5f;
     public float speed = 10f;
+    public AudioSource hurt, coin;
     public float jumpForce = 600f;
     public float groundRadius = 0.2f;
 	public BoxCollider2D groundChecker;
 	public int power = 10;
 	public float hitDistance = 2f;
     public GameObject slider;
+    public Text scoreText;
     private bool blockHit;
     public float health = 100;
     private Animator anim;
@@ -23,7 +25,7 @@ public class PlayerController : MonoBehaviour
 	private bool occupating;
 	private Collider2D currentCollider;
 	private MainController controller;
-
+    private int score = 0;
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -62,7 +64,24 @@ public class PlayerController : MonoBehaviour
 		}
         if (coll.gameObject.tag == "Shipi")
         {
+            
             SceneManager.LoadScene("DemoLvl");
+        }
+        if (coll.gameObject.tag == "item")
+        {
+            coin.Play();
+            health += 7;
+            score += 50;
+            Destroy(coll.gameObject);
+        }
+
+        if (coll.gameObject.tag == "door")
+        {
+            SceneManager.LoadScene("Tower");
+            PlayerPrefs.SetInt("CurrentLevel", PlayerPrefs.GetInt("CurrentLevel") + 1);
+            health += 7;
+            score += 50;
+            Destroy(coll.gameObject);
         }
         else if (coll.gameObject.tag == "Enemy")
 		{
@@ -87,6 +106,9 @@ public class PlayerController : MonoBehaviour
 
 	private void Update()
 	{
+        if (health < 0)
+            SceneManager.LoadScene("DemoLvl");
+        scoreText.text = score.ToString("D5");
         slider.GetComponent<Slider>().value = health;
         anim.SetFloat("Gravity", rigi.gravityScale);
 		//JUMP
@@ -133,11 +155,20 @@ public class PlayerController : MonoBehaviour
 
     public void Jump()
     {
+        this.GetComponent<AudioSource>().Play();
         rigi.velocity = new Vector2(rigi.velocity.x, 0);
         rigi.AddForce(new Vector2(0, jumpForce));
     }
+    public void Jump(float ez)
+    {
+        this.GetComponent<AudioSource>().Play();
+        rigi.velocity = new Vector2(rigi.velocity.x, 0);
+        rigi.AddForce(new Vector2(0, ez));
+    }
 
-	public void GetDamage(int damage, EnemyController enemy)
+
+
+    public void GetDamage(int damage, EnemyController enemy)
     {
         health -= damage;
 		StartCoroutine(RedLight());
@@ -165,6 +196,7 @@ public class PlayerController : MonoBehaviour
 			if (Mathf.Abs(controller.enemies[i].transform.position.x - this.transform.position.x) < attackRadius
 				&& Mathf.Abs(controller.enemies[i].transform.position.y - this.transform.position.y) < 0.3f)
 			{
+                hurt.Play();
 				controller.enemies[i].GetDamage(power, true);
 				StartCoroutine(BlockHit(1));
 			}

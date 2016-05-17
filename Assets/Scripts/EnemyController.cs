@@ -52,17 +52,21 @@ public class EnemyController : MonoBehaviour
 		if (!blockMove)
         	Move();
 		var sign = player.transform.position.x < this.transform.position.x ? 1 : -1;
-		this.transform.localScale = new Vector3(Mathf.Abs(this.transform.localScale.x) * sign, this.transform.localScale.y, this.transform.localScale.z);
+		if(type != EnemyType.SmallRat)
+            this.transform.localScale = new Vector3(Mathf.Abs(this.transform.localScale.x) * sign, this.transform.localScale.y, this.transform.localScale.z);
     }
 
 
     void OnTriggerEnter2D(Collider2D coll)
     {
+       
 		if (coll.gameObject.tag == "Fliper" && type == EnemyType.SmallRat)
         {
+         
             Vector3 theScale = transform.localScale;
             theScale.x *= -1;
             transform.localScale = theScale;
+            return;
         }
     }
 
@@ -127,6 +131,7 @@ public class EnemyController : MonoBehaviour
         }
 		else if (type == EnemyType.SmallRat)
         {
+            Debug.Log(" odkada");
             rigi.velocity = new Vector2(speed * Mathf.Sign(transform.localScale.x), rigi.velocity.y);
         }
     }
